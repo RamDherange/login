@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\tax"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "login"
+	}
+}

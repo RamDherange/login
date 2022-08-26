@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+   box-sizing: border-box;
+   text-align: center;
+   padding: 10px;
+ 
+
+
+}
+.container {
+    max-width: 50%;
+    background-color: aquamarine;
+    margin: auto;
+    padding: auto;
+
+    
+}
+
+.head {
+
+    color:red;
+}
+.para {
+    color: blue;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.information {
+    color: brown;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
