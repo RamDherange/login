@@ -37,8 +37,9 @@ else{
 
 
 }
+echo '<script>alert("Congratulations! You have successfully register.");history.go(-1);</script>';
 ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,7 +54,7 @@ else{
         <p class="para">
          Fill The Following Information
         </p>
-        <form action="login.php" method="post">
+        <form action="login.php" method="post" name="form">
         <div class="information">
         FIRST NAME:<input autocomplete="off" type="text" name="faname" id="name" placeholder="enter first name"><br><br>
         LAST NAME:<input autocomplete="off" type="text" name="laname" id="name" placeholder="enter last name"><br><br>
@@ -62,10 +63,11 @@ else{
        PASSWORD: <input autocomplete="off" type="password" name="paass" id="name" placeholder="enter your password"><br><br>
     </div>
 
-    <input type="submit" name="upload" value="UPLOAD">
+    <input type="submit" name="upload"  onsubmit="resetform()" value="UPLOAD">
 
     </div>
 </form>
-    
+<script src="reset.js"></script>
+
 </body>
-</html>
+</html> -->
